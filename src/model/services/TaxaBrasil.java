@@ -1,6 +1,6 @@
 package model.services;
 
-public class TaxaBrasil {
+public class TaxaBrasil implements TaxaServico {
 
 	public double taxa(double quantia) {
 		if (quantia <= 100.0) {

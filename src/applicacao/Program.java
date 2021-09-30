@@ -43,7 +43,10 @@ public class Program {
 		System.out.println("Pagamento basico: " + String.format("%.2f", adc.getFatura().getPagameto()));
 		System.out.println("Taxa: " + String.format("%.2f", adc.getFatura().getTaxa()));
 		System.out.println("Pagamento Total: " + String.format("%.2f", adc.getFatura().getTotalPagamento()));
-
+				
+		
+		
+		
 	}
 
 }
